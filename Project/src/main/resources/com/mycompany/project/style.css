@@ -1,0 +1,25 @@
+.seach-box{
+    -fx-background-color:#ffffff;
+    -fx-background-radius:180;
+}
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.seach-button{
+    -fx-background-color: #84E7FF ;
+    -fx-background-radius:50;      
+}
+
+.right-bar{
+    -fx-background-color: #AEE2FF;
+}
+
+.pane{
+    -fx-background-color: #93C6E7;
+}
+.boxpane{
+    -fx-background-color:#66CAF1;
+    -fx-background-radius:80;
+}

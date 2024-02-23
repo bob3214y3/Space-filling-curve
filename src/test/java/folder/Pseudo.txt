@@ -1,0 +1,66 @@
+int level = {Level of iteration user want}; //
+int total = total lines of the curve;
+Point path[total];
+public void settings(){
+    size(512,512);
+}
+void setup(){
+    loop i from 0 to total{
+        path[i] = Hilbert(i);
+        resize the path in compare to the real size of the window
+    }
+}
+
+void draw(){
+    add color to by line;
+    draw all the lines, take data from path[];
+    restart the animation after the drawing is done;
+    show the Level of iteration and the Speed of the animation;
+}
+void keyPressed(){
+    change the level
+        up when the user press upArrow
+        down when the user press downArrow
+        then reInitialize all the attribute of the curve;
+    change the speed of the animation
+        faster when the user press leftArrow
+        slower when the user press rightArrow
+}
+void reinitialize(){
+    reInitialize all the attribute of the curve
+}
+
+
+
+
+public Point Hilbert (int i){
+    Point[] point = {
+        Set up all the point for the first iteration of the curve
+    }
+
+    int index = which quadrant they in compare to the largest curve;
+
+    Point newPoint = point[index];
+
+    for loop j from 1 to level{
+        int length = {length of the offset of the line in the level j}
+        index = quadrant of they in copare to the jth largest curve
+        if (index = 1st quadrant){
+            {rotate if required}
+        }
+        else if (index = 2nd quadrant){
+            {rotate if required}
+            v.x += length;
+        }
+        else if (index = 3rd quadrant){
+            {rotate if required}
+            v.y += length;
+            v.x += length;
+        }
+        else if (index= 4th quadrant){
+            {roltate if required}
+            v.x+=len;
+        }
+    }
+    return v;
+}

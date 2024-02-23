@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="215.0" prefWidth="215.0" style="-fx-background-color: #CAFFFA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.project.SnowflakeController">
+   <children>
+      <VBox alignment="CENTER" layoutX="8.0" prefHeight="215.0" prefWidth="215.0" style="-fx-background-color: #b4dbdc; -fx-background-radius: 180;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="projectImg" fitHeight="120.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../GUI-javafx/image/Screenshot%202023-01-18%20190325.JPG" />
+               </image>
+            </ImageView>
+            <Label fx:id="namelaber" text="Snowflake">
+               <font>
+                  <Font name="Sitka Text" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

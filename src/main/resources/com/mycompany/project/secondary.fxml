@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="703.0" prefWidth="835.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.project.SecondaryController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Pane prefHeight="663.0" prefWidth="789.0" style="-fx-border-width: 10; -fx-border-color: black;">
+         <children>
+            <StackPane fx:id="processing" layoutX="90.0" layoutY="32.0" prefHeight="600.0" prefWidth="600.0" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
